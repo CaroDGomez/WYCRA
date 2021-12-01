@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/caro5/Documents/UPB/WYCRA/app/src/main/res/drawable/rounded_corner.xml" value="0.21770833333333334" />
         <entry key="..\:/Users/caro5/Documents/UPB/WYCRA/app/src/main/res/layout/activity_busqueda_candidatos.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/caro5/Documents/UPB/WYCRA/app/src/main/res/layout/activity_busqueda_graduados.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/caro5/Documents/UPB/WYCRA/app/src/main/res/layout/activity_estadisticas_candidatos.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/caro5/Documents/UPB/WYCRA/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/caro5/Documents/UPB/WYCRA/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/caro5/Documents/UPB/WYCRA/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
       </map>
     </option>
