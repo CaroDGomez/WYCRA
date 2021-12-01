@@ -10,51 +10,55 @@
         android:id="@+id/imageView"
         android:layout_width="108dp"
         android:layout_height="92dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="88dp"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/candidatos"
-        tools:layout_editor_absoluteX="42dp" />
+        tools:layout_editor_absoluteX="46dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="167dp"
         android:layout_height="59dp"
+        android:layout_marginStart="210dp"
         android:layout_marginTop="104dp"
+        android:layout_marginBottom="440dp"
         android:text="Búsqueda de candidatos para formación"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="210dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edtDepartamento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="Departamento"
         android:inputType="textPersonName"
-        android:text="Departamento"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:layout_editor_absoluteX="199dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edtMunicipio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:ems="10"
+        android:hint="Municipio"
         android:inputType="textPersonName"
-        android:text="Municipio"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/edtDepartamento"
         tools:layout_editor_absoluteX="184dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/edtEdad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="Edad"
         android:inputType="textPersonName"
-        android:text="Edad"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/edtEstrato"
         tools:layout_editor_absoluteX="174dp" />
 
     <TextView
@@ -64,7 +68,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="52dp"
         android:text="Municipio:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toStartOf="@+id/edtMunicipio"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
@@ -74,18 +78,18 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="56dp"
         android:text="Edad"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintEnd_toStartOf="@+id/edtEdad"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/edtEstrato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:ems="10"
+        android:hint="Estrato"
         android:inputType="textPersonName"
-        android:text="Estrato"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/edtMunicipio"
         tools:layout_editor_absoluteX="174dp" />
 
     <TextView
@@ -95,7 +99,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="56dp"
         android:text="Estrato:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintEnd_toStartOf="@+id/edtEstrato"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
@@ -105,7 +109,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="44dp"
         android:text="Departamento:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/edtDepartamento"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
@@ -118,12 +122,20 @@
         tools:layout_editor_absoluteX="60dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnBuscar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="3dp"
         android:text="Buscar"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
