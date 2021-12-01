@@ -1,6 +1,27 @@
 <resources>
     <string name="app_name">WYCRA</string>
+
+    <string name="title_busqueda_candidatos">Búsqueda de candidatos para formación</string>
+    <string name="title_busqueda_graduados">Búsqueda de candidatos graduados</string>
+    <string name="title_estadisticas">Estadísticas</string>
+    <string name="subtitle_busqueda">Diligencie la información a continuación:</string>
+
     <string name="login_button">Ingresar</string>
+    <string name="buscar_button">Buscar</string>
+    <string name="estadisticas_button">Estadísticas</string>
+    <string name="regresar_button">Regresar</string>
+    <string name="busqueda_graduados_button">Búsqueda graduados</string>
+
+    <string name="departamento">Departamento:</string>
+    <string name="municipio">Municipio:</string>
+    <string name="estrato">Estrato:</string>
+    <string name="edad">Edad:</string>
+
     <string name="hint_correo">Correo</string>
     <string name="hint_contrasena">Contraseña</string>
+    <string name="hint_departamento">Departamento</string>
+    <string name="hint_municipio">Municipio</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_estrato">Estrato</string>
+
 </resources>
